@@ -30,6 +30,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: .6rem;
+    position: relative;
 }
 
 .form form .field label{
@@ -58,6 +59,15 @@
     color: #fff;
     border-radius: .4rem;
     cursor: pointer;
+}
+
+.form form .field i{
+position: absolute;
+right: .9rem;
+top: 65%;
+color: #ccc;
+transform: translateY(-50%);
+cursor: pointer;
 }
 .form .link{
     text-align: center;
