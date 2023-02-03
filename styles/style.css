@@ -19,7 +19,7 @@ body{
 
 .wrapper{
     background-color: #fff;
-    max-width: 450px;
+    width: 450px;
     border-radius: 1rem;
     box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
                 0 2rem 4rem -3rem rgba(0, 0, 0, 0.5);
