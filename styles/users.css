@@ -47,6 +47,7 @@
   position: relative;
   align-items: center;
   justify-content: space-between;
+
 }
 .users .search .text {
   font-size: 1.2rem;
@@ -60,17 +61,32 @@
   font-size: 1rem;
   outline: none;
   border-radius: 0.4rem 0 0 0.4rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: ease all .4s;
+}
+.users .search input.active{
+  opacity: 1;
+  pointer-events: auto;
 }
 .users .search button {
   width: 47px;
   height: 3rem;
   border: none;
   outline: none;
-  color: #fff;
-  background-color: #333;
+  color: #333;
+  background-color: #fff;
   cursor: pointer;
   font-size: 1.1rem;
   border-radius: 0 0.4rem 0.4rem 0;
+  transition: ease all .2s;
+}
+.users .search button.active{
+  color: #fff;
+  background-color: #333;
+}
+.users .search button.active i::before{
+ content: "\f00d";
 }
 .users-list {
   max-height: 350px;
