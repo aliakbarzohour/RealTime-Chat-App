@@ -22,8 +22,8 @@
     <div class="wrapper">
       <section class="form signup">
         <header>Realtime Chat App</header>
-        <form action="#">
-          <div class="error-txt">This is an error massage !</div>
+        <form action="#" enctype="multipart/form-data">
+          <div class="error-txt"></div>
           <div class="name-details">
             <!-- First Name -->
             <div class="field input">

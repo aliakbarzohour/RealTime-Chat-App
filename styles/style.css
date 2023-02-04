@@ -1,7 +1,7 @@
 /* Poppins Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700@display=swap');
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700@display=swap');
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,15 +17,14 @@ body{
     background-color: #f7f7f7;
 }
 
-.wrapper{
+.wrapper {
     background-color: #fff;
     width: 450px;
     border-radius: 1rem;
-    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
-                0 2rem 4rem -3rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 2rem 4rem -3rem rgba(0, 0, 0, 0.5);
 }
 
-.form form .error-txt{
+.form form .error-txt {
     color: #721c24;
     background-color: #f8d7da;
     padding: .6rem .7rem;
