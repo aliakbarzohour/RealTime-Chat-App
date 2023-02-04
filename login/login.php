@@ -41,7 +41,7 @@
         </form>
 
         <div class="link">
-          Not Yet Signed Up ? <a href="../index.html">SignUp Now</a>
+          Not Yet Signed Up ? <a href="../index.php">SignUp Now</a>
         </div>
       </section>
     </div>

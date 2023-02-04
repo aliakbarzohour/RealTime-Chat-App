@@ -18,7 +18,7 @@
     <div class="wrapper">
         <section class="chat-area">
             <header>
-                <a href="../users/users.html"><i class="fas fa-arrow-left back-icon"></i></a>
+                <a href="../users/users.php"><i class="fas fa-arrow-left back-icon"></i></a>
                 <img src="../۱.jpeg" alt="" />
                 <div class="details">
                     <span>Aliakbar Zohour</span>

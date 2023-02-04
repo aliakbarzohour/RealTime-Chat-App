@@ -28,7 +28,7 @@
               <p>Active now</p>
             </div>
           </div>
-          <a href="../login/login.html" class="logout">Logout</a>
+          <a href="../login/login.php" class="logout">Logout</a>
         </header>
 
         <div class="search">
@@ -38,7 +38,7 @@
         </div>
 
         <div class="users-list">
-          <a href="../chat/chat.html">
+          <a href="../chat/chat.php">
             <div class="content">
               <img src="../۱.jpeg" alt="" />
               <div class="details">
